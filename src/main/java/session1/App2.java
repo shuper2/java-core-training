@@ -6,7 +6,7 @@ class App2 {
         Cache cache = new Cache();
         while (true) {
             doSomething(cache);
-            Thread.sleep(1000);
+            Thread.sleep(100);
         }
     }
 
