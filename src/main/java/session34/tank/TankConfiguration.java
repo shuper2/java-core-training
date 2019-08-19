@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 @Configuration
-class TankConfiguration {
+public class TankConfiguration {
     @Bean
     public Tank t34() {
         return new Chassis(new Caliber76Cannon(), new ManualShellLoader());
